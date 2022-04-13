@@ -12,10 +12,10 @@ Passwords are one single word, so sequence dependency will not be a problem.
 The dataset is large (14 million passwords) and thus can be cut short to speed up the training process.
 
 ## Models
-1. LSTM
+#### LSTM
 
 The network architecture used was a basic LSTM model, with SoftMax, TimeDistrubuted Activation functions. Input is preprocessed for optimal calculation and then fed into the Model. 
 
-2. GRU
+#### GRU
 
 The network architecture used was a basic GRU model, with SoftMax, TimeDistrubuted Activation functions. Input is preprocessed for optimal calculation and then fed into the Model. 
